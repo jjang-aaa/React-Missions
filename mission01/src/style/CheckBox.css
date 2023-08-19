@@ -1,0 +1,15 @@
+.checkBoxContainer {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0;
+}
+
+.checkBoxImage {
+  cursor: pointer;
+  margin-right: 10px;
+  height: 24px;
+  width: 24px;
+}
+.checkBoxText {
+  font-size: 18px;
+}
