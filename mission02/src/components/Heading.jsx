@@ -1,5 +1,12 @@
+import Logo from "./Logo";
+
 function Heading() {
-  return <div>Heading</div>;
+  return (
+    <>
+      <Logo />
+      <h1>Pizza 만들기</h1>
+    </>
+  );
 }
 
 export default Heading;

@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(253, 253, 208);
+  align-items: center;
+
+  & p {
+    font-size: 2rem;
+  }
+}
+
+.buttonContainer > button:last-child {
+  background: rgb(251, 244, 37);
+}

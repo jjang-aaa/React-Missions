@@ -1,8 +1,11 @@
+import Heading from "../components/Heading";
+import { container } from "../styles/HeaderBar.module.css";
+
 function HeaderBar() {
   return (
-    <div>
-      <h1>Pizza 만들기</h1>
-    </div>
+    <header className={container}>
+      <Heading />
+    </header>
   );
 }
 
